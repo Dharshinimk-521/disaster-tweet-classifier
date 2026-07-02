@@ -129,7 +129,7 @@ disaster-tweet-classifier/
 │   └── model_config.json
 │
 └── assets/
-└── logo.png
+    └── logo.webp
 
 ```
 
@@ -141,7 +141,7 @@ disaster-tweet-classifier/
 
 ```
 
-git clone [https://github.com/yourusername/disaster-tweet-classifier.git](https://github.com/yourusername/disaster-tweet-classifier.git)
+git clone https://github.com/Dharshinimk-521/disaster-tweet-classifier.git
 cd disaster-tweet-classifier
 
 ```
@@ -188,7 +188,7 @@ Access locally at:
 
 [http://localhost:8501](http://localhost:8501)
 
-````
+```
 
 ---
 
@@ -218,7 +218,7 @@ with open("tokenizer.pkl", "wb") as f:
 import json
 with open("model_config.json", "w") as f:
     json.dump({"max_len": max_len}, f)
-````
+```
 
 ---
 
@@ -235,7 +235,6 @@ with open("model_config.json", "w") as f:
 ## License
 
 MIT License
-
 
 
 
